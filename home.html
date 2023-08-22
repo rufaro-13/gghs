@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="custom.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+        
+
+    </head>
+
+    <body class="d-flex flex column min-vh-100">
+
+        <!-- Navigation bar-->
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg  navbar-light bg-light  fixed-top">
+                    <!--Brand logo-->
+                    <a class="navbar-brand" href="#"> <img src="images/logo.jpg" alt="images/logo 50x50.png" style="width: 100px;"></a>
+
+                    <!-- Toggler/collapsibe Button -->
+                    <button class="navbar-toggler " style="color: black;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!--links-->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <div class="card mx-auto">
+                            <ul class="nav navbar-nav mr-auto">
+                                <li class="nav-item"> <a class="nav-link active" href ="index.html"  style="color: #b30086">Home</a></li>
+                                <li class="nav-item"> <a class="nav-link active" href ="pages/Services.html" style="color: #b30086">Services</a></li>
+                                <li class="nav-item"> <a class="nav-link active" href ="pages/Contact.html" style="color: #b30086">Contacts</a></li>
+                                <li class="nav-item"> <a class="nav-link active" href="pages/About.html" style="color: #b30086" target="_blank">About</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </nav><br><br>
+            </div>
+        </div>
+
+        <div class="  mt-5 ">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/doctor-talking-with-her-elder-patient.jpg" class="d-block " alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/female-doctor-with-stethoscope-sharing-comfort-old-man-nursing-home.jpg" class="d-block " alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/happy-nurse-holding-elderly-man-hand-wheelchair-garden-nursing-home.jpg" class="d-block " alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <!--script>
+            $(document).ready(function(){
+            console.log($('#carouselExampleAutoplaying').css('height')); // check the initial height of the carousel;
+            
+            // now apply this height as a max-height on all the image items; css will handle the rest;
+            $('#carouselExampleAutoplaying').find('.carousel-item img').css('max-height', $('#carouselExampleAutoplaying').css('height'))
+            });
+        </script!-->
+
+        
+    </body>

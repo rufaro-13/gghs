@@ -1,0 +1,502 @@
+.navbar-nav.navbar-center{
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+
+.navbar{
+
+   max-height: 100px;
+   background-color: white;
+}
+
+.navbar-light{
+
+   max-height: 100px;
+   background-color: white !important;
+}
+
+ a.nav-link  {
+
+    display:block;
+     margin-left:30px;
+    margin-right:30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-size :20px;
+    font-weight: 800;
+    color: #00aaff;
+    
+}
+
+.collapse{
+
+    height: min-content;
+    
+}
+.card-body{
+    background-color: rgb(240, 240, 235);
+}
+.card{
+
+    
+    border-style: none;
+}
+
+#services{
+
+    clear:left;
+}
+nav.navbar-nav.mr-auto
+
+.carousel-inner > .item > img{
+    width:100%;
+    height: 100%;
+}
+
+
+
+#phone {
+
+    width: 50%;
+    margin-left: 25%;
+}
+
+#user {
+
+    width: 50%;
+    margin-left: 25%;
+}
+#email {
+
+    width: 50%;
+    margin-left: 25%;
+}
+#company {
+
+    width: 50%;
+    margin-left: 25%;
+}
+
+
+
+
+#contacts{
+    text-align: center;
+     color: yellow;
+
+}
+
+#form{
+
+    
+   /* background-image: url("skyscraper-gc7855c280_1920.jpg") ;*/
+    color:#b30086;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+   /* background-color: rgb(93,138,168);;*/
+   background-image: url(../images/caucasian-young-doctor-nursing-home-giving-pills-senior-man-with-crutches.jpg);
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+
+#contact-div{
+    background-color: #b30086;
+    width:50%;
+    justify-content: center;
+    opacity: 0.6;
+    
+}
+#contact-div1{
+
+    justify-content:center;
+    
+}
+
+#container-fluid{
+    width: 100%;
+}
+
+#navcolor{
+    background-color: white;
+}
+.body{
+    width: 100%;
+}
+
+.footer-dark{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+#form1{
+    display: inline;
+    text-align: center;
+    width: 75%;
+    margin: 0 a;
+    
+}
+
+label{
+
+    margin-left:50;
+}
+
+.copyright{
+    text-align:left;
+    
+}
+
+.fab{
+    padding: 30px;
+    font-size: 37px;
+} 
+.fas{
+    padding: 30px;
+    font-size: 37px;
+}
+.fa{
+    padding-inline: 30px;
+    font-size: 37px;
+}
+
+i.fa-solid{ padding: 15px;
+    font-size: 35px;
+}
+
+/*div {
+
+    background-color: rgb(158, 236, 32);
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 100px;
+
+
+}*/
+
+li a:hover{
+    background-color: blue;
+
+}
+
+
+.navbar-custom {
+
+    background-color:white;
+    overflow: hidden;
+    
+    
+}
+#footer-dark
+{
+    width:100%;
+    /*transform: translatex(-50%);*/
+}
+
+footer{
+
+    position:sticky;
+   width:inherit;
+    background-color:#b30086!important;
+    color: white;
+    margin-left:0;
+    margin-right:0;
+    height: fit-content;
+   /* left: 0;9ij
+    bottom: 0;
+    width: 100%;
+    height: 100px;*/
+}
+
+.lmark{
+    justify-content: right;
+    font-size: 15px;
+}
+.theend{
+
+    height: fit-content;
+    border-top: #6b376b;
+    border-style: solid;
+    border-width: thin;
+    border-block-end: transparent;
+}
+/*
+.navbar a {
+
+    float:left;
+    font-size: 16px;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}*/
+
+.sec {
+
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
+
+}
+
+/*.container-fluid{
+    background-image: url("Logo Capacete (2).jpg") ;
+    background-color: white;
+    background-size:cover;
+    color: inherit;
+    
+}
+
+*/
+#aboutpara{
+
+    background-image: url("Logo Capacete (2).jpg") ;
+    background-color: white;
+    background-size:cover;
+    color: inherit;
+}
+
+#address{
+    background-color: white;
+    background-size:cover;
+    color: inherit;
+}
+
+
+.about{
+
+    /* font-size: 20px; */
+    font-family:'Times New Roman', Times, serif;
+    text-align:center;
+    font-weight: 500;
+    
+    
+}
+
+/*.eachservice{
+
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+  
+    font-weight: 500;
+    color:blue;
+}*/
+
+#more {display: none;}
+
+.centered {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    font-size: 45px;
+    font-style: oblique;
+    font-weight: bolder;
+    color:  #f3f3f7;
+    background-color:rgba(0,0,0,0.4) ;
+  }
+
+  /*.embed-responsive-item{
+
+   background-color: #fff;
+   width: max-content;
+  }*/
+  .embed-responsive-19by7::before {
+    padding-top: 39.7916%;
+  }
+  
+  /*#servicesimages img{
+    width: 500px;
+    height: 350px;
+}*/
+
+.video-fluid {
+   /* width: 100%;*/
+    height: auto;
+}
+/*.eachservice{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    color: blue;
+    font-weight: 500;
+    
+}*/
+    
+#servicesimages img{
+    width: 500px;
+    height: 350px;
+}
+
+.eachservice{
+
+    font-size: 1.25em;
+    font-family:'Times New Roman', Times, serif;
+   /* text-align:center;*/
+    font-weight: 500;
+    color:blue;
+}
+
+/*@media screen  and (min-width : 992px)
+  {
+    .eachservice{
+
+       /* font-size: 20px;*/
+        /*font-family:'Times New Roman', Times, serif;
+       /* text-align:center;*/
+       /* font-weight: 500;
+        color: blue;
+    }
+  }*/
+
+  @media screen  and (max-width : 768px)
+  {
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 15px;
+        color:  #f3f3f7;
+        background-color:rgba(0,0,0,0.4) ;
+      }
+
+    .serviceslinks{
+        font-size: 12px;
+    }
+
+    #servicesimages img{
+        width: 100%;
+    
+    }
+
+    .eachservice{
+
+        font-size: 15px;
+        font-family:'Times New Roman', Times, serif;
+       /* text-align:center;*/
+        font-weight: 500;
+    }
+
+    #form{
+
+    
+    
+        /* background-image: url("skyscraper-gc7855c280_1920.jpg") ;*/
+         color:#b30086;
+         font-weight: bold;
+         justify-content: center;
+         display: flex;
+        /* background-color: rgb(93,138,168);;*/
+        background-image: url(../images/caucasian-young-doctor-nursing-home-giving-pills-senior-man-with-crutches.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+     }
+
+     #contact-div{
+        background-color: #b30086;
+        width:fit-content;
+        justify-content: center;
+        opacity: 0.6;
+        
+    }
+    #contact-div1{
+    
+        
+        justify-content:center;
+        
+        
+    }
+
+    .about{
+       /*  font-size: 15px; */
+    }
+    
+    i.fa-solid{ padding: 10px;
+    font-size: 16px;
+}
+
+.fab{
+    padding: 10px;
+    font-size: 16px;
+} 
+.fas{
+    padding: 10px;
+    font-size: 16px;
+}
+.fa{
+    padding: 10px;
+    font-size: 16px;
+}
+
+.myphone{
+    
+    padding: 10px;
+    font-size: 20px;
+}
+
+.video-fluid {
+    width:80%;
+     height: auto;
+ }
+ 
+ video{
+     width: 80%;
+ }
+
+#serv{
+    width: 35rem;
+}
+
+.lmark{
+    justify-content: right;
+    font-size: smaller;
+    
+}
+    
+}
+
+
+
+.video-fluid {
+   width:80%;
+    height: auto;
+}
+
+video{
+    width: 50%;
+}
+
+#service_cards{
+    padding-left: 35px;
+    display: flex;
+}
+
+#card-img-top
+{
+    height: 50%;
+}
+
+#serv{
+    width: 35rem;
+}
+
+.dot {
+    height: 35px;
+    width: 35px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+    
